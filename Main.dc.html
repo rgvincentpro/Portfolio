@@ -31,13 +31,22 @@ body{margin:0}
 .bj::before{content:"";position:absolute;left:4px;top:13px;width:10px;height:10px;border-radius:50%;background:#c8141c}
 .hl{background:linear-gradient(transparent 52%,rgba(247,201,59,.8) 52%,rgba(247,201,59,.8) 92%,transparent 92%)}
 #apropos .news h2{font:700 56px/1 Caveat,cursive;text-transform:none;color:#222f80}
+.sb>div:first-child{z-index:40 !important}
+.ddm{position:relative;display:inline-block}
+.ddp{display:none;position:absolute;top:100%;left:0;padding-top:12px;z-index:60;min-width:250px}
+.ddm:hover>.ddp,.ddm:focus-within>.ddp{display:block}
+.ddi{display:flex;flex-direction:column;align-items:flex-start;gap:8px}
+.ddp a{display:block;white-space:nowrap;font:700 28px/1 'Amatic SC',cursive;text-decoration:none;color:var(--navy);background:var(--paper);padding:6px 16px 8px;box-shadow:3px 4px 0 var(--hard);transform:rotate(-1.2deg)}
+.ddp a:nth-child(even){transform:rotate(1.1deg)}
+.ddp a:first-child{background:var(--yel)}
+.ddp a:hover,.ddp a:focus-visible{background:var(--yel)}
 </style>
 </helmet>
 <div class="sb" style="background: #f08a4b; width: 100%">
 <div style="max-width: 1180px; margin: 0 auto; padding: 18px 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px; position: relative; z-index: 2">
 <a class="logo" href="#">RGV</a>
 <div style="display: flex; gap: 12px; flex-wrap: wrap">
-<a class="chip" href="#projets">Projets</a>
+<div class="ddm"><a class="chip" href="#projets">Projets</a><div class="ddp"><div class="ddi"><a href="#projets">Tous les projets</a><a href="Wyld-N-Rolla.dc.html">Wyld’N’Rolla</a><a href="Le-Merovingien.dc.html">Le Mérovingien</a><a href="Casque-audio.dc.html">Le casque audio</a><a href="Magazine-Saudade.dc.html">Saudade, magazine</a><a href="La-Lumiere.dc.html">La lumière</a><a href="Affiches.dc.html">Graphisme</a><a href="Photos-Galerie.dc.html">Photographie</a></div></div></div>
 <a class="chip b" href="Casque-audio.dc.html" style="display: none">Le casque audio</a>
 <a class="chip c" href="Magazine-Saudade.dc.html" style="display: none">Saudade</a>
 <a class="chip" href="Affiches.dc.html" style="display: none">Affiches</a>

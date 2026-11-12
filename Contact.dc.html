@@ -48,13 +48,22 @@ a.bu:hover{background:#eaf0fa}
 .win.wz{animation:wizz .85s linear}
 .tray{display:flex;flex-wrap:wrap;align-items:center;gap:12px 26px;justify-content:space-between;margin-top:44px;padding:9px 14px;border:1px solid #222f80;border-radius:4px;background:linear-gradient(180deg,#fff4de,#f3dfbb);font:15px/1.3 Tahoma,Verdana,sans-serif;color:#222f80;box-shadow:3px 4px 0 rgba(110,22,42,.35)}
 .tray .st{padding:6px 20px 7px;border-radius:12px;background:linear-gradient(180deg,#72d36a,#2f9a22);border:1px solid #1b6b2e;color:#fff;font:700 16px/1 Tahoma,sans-serif;font-style:italic;text-shadow:0 1px 1px rgba(0,0,0,.5)}
+.sb>div:first-child{z-index:40 !important}
+.ddm{position:relative;display:inline-block}
+.ddp{display:none;position:absolute;top:100%;left:0;padding-top:12px;z-index:60;min-width:250px}
+.ddm:hover>.ddp,.ddm:focus-within>.ddp{display:block}
+.ddi{display:flex;flex-direction:column;align-items:flex-start;gap:8px}
+.ddp a{display:block;white-space:nowrap;font:700 28px/1 'Amatic SC',cursive;text-decoration:none;color:var(--navy);background:var(--paper);padding:6px 16px 8px;box-shadow:3px 4px 0 var(--hard);transform:rotate(-1.2deg)}
+.ddp a:nth-child(even){transform:rotate(1.1deg)}
+.ddp a:first-child{background:var(--yel)}
+.ddp a:hover,.ddp a:focus-visible{background:var(--yel)}
 </style>
 </helmet>
 <div class="sb net" style="width: 100%">
 <div style="max-width: 1180px; margin: 0 auto; padding: 18px 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px; position: relative; z-index: 2">
 <a class="logo" href="Main.dc.html">RGV</a>
 <div style="display: flex; gap: 12px; flex-wrap: wrap">
-<a class="chip" href="Main.dc.html#projets">← Projets</a>
+<div class="ddm"><a class="chip" href="Main.dc.html#projets">← Projets</a><div class="ddp"><div class="ddi"><a href="Main.dc.html#projets">Tous les projets</a><a href="Wyld-N-Rolla.dc.html">Wyld’N’Rolla</a><a href="Le-Merovingien.dc.html">Le Mérovingien</a><a href="Casque-audio.dc.html">Le casque audio</a><a href="Magazine-Saudade.dc.html">Saudade, magazine</a><a href="La-Lumiere.dc.html">La lumière</a><a href="Affiches.dc.html">Graphisme</a><a href="Photos-Galerie.dc.html">Photographie</a></div></div></div>
 <a class="chip c" href="Main.dc.html#apropos">À propos</a>
 </div>
 </div>

@@ -126,13 +126,22 @@ background:repeating-linear-gradient(transparent 0 35px,rgba(70,120,200,.28) 35p
 .zfm video{display:block;width:100%;height:auto;aspect-ratio:9/16;object-fit:cover;background:#000}
 .zfm figcaption{flex:1;display:flex;align-items:center;justify-content:center;min-height:62px;margin:0 -8px;padding:6px 10px 8px;background:#f4f0e4;font-size:19px;line-height:24px;color:var(--k);text-align:center}
 @media (max-width:900px){.z{padding-right:20px}.zi{padding-left:50px}.z:before{left:34px}.zh,.zlogo{grid-template-columns:1fr}.zh h1{font-size:84px}.zt h2{font-size:46px}.zpal{grid-template-columns:repeat(2,1fr)}.zfr{grid-template-columns:repeat(2,1fr)}.zrf{grid-template-columns:1fr}.zfm{grid-template-columns:repeat(2,1fr)}}
+.sb>div:first-child{z-index:40 !important}
+.ddm{position:relative;display:inline-block}
+.ddp{display:none;position:absolute;top:100%;left:0;padding-top:12px;z-index:60;min-width:250px}
+.ddm:hover>.ddp,.ddm:focus-within>.ddp{display:block}
+.ddi{display:flex;flex-direction:column;align-items:flex-start;gap:8px}
+.ddp a{display:block;white-space:nowrap;font:700 28px/1 'Amatic SC',cursive;text-decoration:none;color:var(--navy);background:var(--paper);padding:6px 16px 8px;box-shadow:3px 4px 0 var(--hard);transform:rotate(-1.2deg)}
+.ddp a:nth-child(even){transform:rotate(1.1deg)}
+.ddp a:first-child{background:var(--yel)}
+.ddp a:hover,.ddp a:focus-visible{background:var(--yel)}
 </style>
 </helmet>
 <div class="sb" style="background: #efe9d8; width: 100%">
 <div style="max-width: 1180px; margin: 0 auto; padding: 18px 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px; position: relative; z-index: 2">
 <a class="logo" href="Main.dc.html">RGV</a>
 <div style="display: flex; gap: 12px; flex-wrap: wrap">
-<a class="chip" href="Main.dc.html">← Projets</a>
+<div class="ddm"><a class="chip" href="Main.dc.html">← Projets</a><div class="ddp"><div class="ddi"><a href="Main.dc.html#projets">Tous les projets</a><a href="Wyld-N-Rolla.dc.html">Wyld’N’Rolla</a><a href="Le-Merovingien.dc.html">Le Mérovingien</a><a href="Casque-audio.dc.html">Le casque audio</a><a href="Magazine-Saudade.dc.html">Saudade, magazine</a><a href="La-Lumiere.dc.html">La lumière</a><a href="Affiches.dc.html">Graphisme</a><a href="Photos-Galerie.dc.html">Photographie</a></div></div></div>
 <a class="chip c" href="Main.dc.html#apropos">À propos</a>
 <a class="chip b" href="Contact.dc.html">Contact</a>
 </div>

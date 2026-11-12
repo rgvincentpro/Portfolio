@@ -76,13 +76,22 @@ body{margin:0}
 .avt img{display:block;height:60px;width:auto}
 .avt span{position:absolute;left:0;bottom:0;background:#c8201a;color:#fff;font:14px 'Share Tech Mono',monospace;padding:0 5px}
 @media (max-width:900px){.mast h1{font-size:110px}.wall{padding:50px 22px 70px}.avi{height:var(--sh,420px)}.avi .note{display:none}.avn{flex-basis:44px;width:44px;height:44px;font-size:28px}.pair{flex-basis:100%}}
+.sb>div:first-child{z-index:40 !important}
+.ddm{position:relative;display:inline-block}
+.ddp{display:none;position:absolute;top:100%;left:0;padding-top:12px;z-index:60;min-width:250px}
+.ddm:hover>.ddp,.ddm:focus-within>.ddp{display:block}
+.ddi{display:flex;flex-direction:column;align-items:flex-start;gap:8px}
+.ddp a{display:block;white-space:nowrap;font:700 28px/1 'Amatic SC',cursive;text-decoration:none;color:var(--navy);background:var(--paper);padding:6px 16px 8px;box-shadow:3px 4px 0 var(--hard);transform:rotate(-1.2deg)}
+.ddp a:nth-child(even){transform:rotate(1.1deg)}
+.ddp a:first-child{background:var(--yel)}
+.ddp a:hover,.ddp a:focus-visible{background:var(--yel)}
 </style>
 </helmet>
 <div class="sb" style="background: #f08a4b; width: 100%">
 <div style="max-width: 1180px; margin: 0 auto; padding: 18px 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px; position: relative; z-index: 2">
 <a class="logo" href="Main.dc.html">RGV</a>
 <div style="display: flex; gap: 12px; flex-wrap: wrap">
-<a class="chip" href="Main.dc.html">← Projets</a>
+<div class="ddm"><a class="chip" href="Main.dc.html">← Projets</a><div class="ddp"><div class="ddi"><a href="Main.dc.html#projets">Tous les projets</a><a href="Wyld-N-Rolla.dc.html">Wyld’N’Rolla</a><a href="Le-Merovingien.dc.html">Le Mérovingien</a><a href="Casque-audio.dc.html">Le casque audio</a><a href="Magazine-Saudade.dc.html">Saudade, magazine</a><a href="La-Lumiere.dc.html">La lumière</a><a href="Affiches.dc.html">Graphisme</a><a href="Photos-Galerie.dc.html">Photographie</a></div></div></div>
 <a class="chip c" href="Main.dc.html#apropos">À propos</a>
 <a class="chip b" href="Contact.dc.html">Contact</a>
 </div>
