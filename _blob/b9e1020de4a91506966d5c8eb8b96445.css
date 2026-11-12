@@ -1,0 +1,22 @@
+.sh2{position:relative;filter:drop-shadow(5px 6px 0 rgba(110,22,42,.45))}
+.gp{position:relative;background:linear-gradient(rgba(60,110,220,.3) 1px,transparent 1px) 0 0/22px 22px,linear-gradient(90deg,rgba(60,110,220,.3) 1px,transparent 1px) 0 0/22px 22px,#fffdf5;clip-path:polygon(0 0,100% 0,97% 12%,100% 24%,96% 38%,100% 52%,97% 66%,100% 80%,96% 92%,100% 100%,0 100%)}
+.gp::before{content:"";position:absolute;left:8px;top:16px;bottom:16px;width:12px;background:radial-gradient(circle,#c9a86a 0 4.5px,transparent 5.5px) 0 0/12px 28px repeat-y}
+.ln{background:repeating-linear-gradient(transparent 0 27px,rgba(80,120,220,.34) 27px 28px),#fff4de;clip-path:polygon(0 3%,100% 0,98% 100%,3% 97%)}
+.kf{background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='70' height='70'><path d='M40 8L26 34h10l-4 24 18-30H38z' fill='%23c4a05c' fill-opacity='.55' stroke='%23b08848' stroke-width='1.5'/></svg>"),#d9bd86;clip-path:polygon(0 4%,12% 0,40% 3%,70% 0,100% 5%,98% 40%,100% 75%,96% 100%,60% 97%,30% 100%,0 96%)}
+.gn{position:relative;padding:36px 24px 28px;background:linear-gradient(#f2f2f2,#d6d6d6);color:#222;font:600 24px/30px Caveat,cursive;clip-path:polygon(0 0,100% 0,100% 90%,94% 100%,86% 93%,78% 100%,70% 94%,60% 100%,50% 93%,40% 100%,30% 94%,20% 100%,10% 93%,0 100%)}
+.gn::before{content:"";position:absolute;left:0;right:0;top:0;height:16px;background:repeating-linear-gradient(90deg,transparent 0 8px,#d9bd86 8px 16px)}
+.nw{background:#ebe7dd;color:#222;padding:18px 20px;font:600 22px/26px Caveat,cursive;clip-path:polygon(0 0,100% 2%,99% 100%,0 98%)}
+.st{padding:22px;font:700 26px/1.2 Caveat,cursive;color:#1f2766;box-shadow:5px 6px 0 rgba(110,22,42,.45)}
+.washi{width:140px;height:32px;transform:rotate(-4deg);box-shadow:0 1px 3px rgba(60,10,20,.35);clip-path:polygon(0 0,4% 25%,0 50%,4% 75%,0 100%,100% 100%,96% 75%,100% 50%,96% 25%,100% 0)}
+.w1{background:rgba(255,255,255,.7)}.w2{background:rgba(255,226,120,.85)}.w3{background:radial-gradient(circle at 8px 8px,#ff4f8b 0 3px,transparent 4px) 0 0/16px 16px,rgba(255,200,215,.92)}.w4{background:rgba(130,130,255,.8)}.w5{background:repeating-linear-gradient(90deg,rgba(143,232,192,.95) 0 6px,rgba(255,255,255,.75) 6px 12px)}
+.tape.t4::before{background:radial-gradient(circle at 8px 8px,#ff4f8b 0 3px,transparent 4px) 0 0/16px 16px,rgba(255,200,215,.92)}.tape.t5::before{background:rgba(130,130,255,.8)}
+.pc::after{content:"";position:absolute;inset:-4px;pointer-events:none;background:linear-gradient(135deg,var(--cc,#7ff0c8) 50%,transparent 50%) 0 0/54px 54px no-repeat,linear-gradient(225deg,var(--cc,#7ff0c8) 50%,transparent 50%) 100% 0/54px 54px no-repeat,linear-gradient(45deg,var(--cc,#7ff0c8) 50%,transparent 50%) 0 100%/54px 54px no-repeat,linear-gradient(315deg,var(--cc,#7ff0c8) 50%,transparent 50%) 100% 100%/54px 54px no-repeat}
+.pin.m{background:radial-gradient(circle at 34% 30%,#fff 0 12%,transparent 14%),radial-gradient(circle,#d4d7de 0 45%,#6b7080 100%)}
+.pin.g{background:radial-gradient(circle at 34% 30%,rgba(255,255,255,.9) 0 9%,transparent 11%),radial-gradient(circle,#4cc46a 0 55%,#1b6b2e 100%)}
+.bd{position:relative;width:96px;height:96px;border-radius:50%;display:grid;place-items:center;text-align:center;overflow:hidden;font:22px/1 'Permanent Marker',cursive;color:#fff4de;border:5px solid #fff;box-shadow:3px 4px 0 rgba(110,22,42,.45);background:#e6428e}
+.bd.y{background:#ffd23c;color:#1f2766}.bd.t{background:#38b6c9;color:#10204f}.bd.k{background:#1f2766}.bd.r{background:#d42b21}.bd.g{background:#4cc46a;color:#10331b}
+.bd img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.bd.cd{background:conic-gradient(#e8e8ee,#9fb4ff,#fff,#ffb3e6,#e8e8ee);color:#1f2766}.bd.cd::after{content:"";position:absolute;width:22px;height:22px;border-radius:50%;background:#f08a4b;border:3px solid #fff}
+.cass{width:130px;height:84px;background:#2a1020;border:4px solid #fff;border-radius:8px;position:relative;box-shadow:3px 4px 0 rgba(110,22,42,.45)}
+.cass::before{content:"";position:absolute;left:14px;right:14px;top:10px;height:28px;background:#f7b3cf;border-radius:4px}
+.cass::after{content:"";position:absolute;left:30px;bottom:12px;width:70px;height:20px;border-radius:12px;background:radial-gradient(circle at 12px 50%,#fff 0 6px,transparent 7px),radial-gradient(circle at 58px 50%,#fff 0 6px,transparent 7px),#4a3a55}
